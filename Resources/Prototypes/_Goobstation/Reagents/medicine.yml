@@ -1081,18 +1081,19 @@
       amount: -8
   metabolisms:
     Medicine:
-      metabolismRate: 0.25
+      metabolismRate: 0.125 # Omu
       effects:
       - !type:ChemCleanBloodstream
+        cleanseRate: 1.5 # Omu
       - !type:HealthChange
         damage:
           types:
-            Poison: -2
-            Radiation: -2 # grants 100% protection from rads until higher rad values
+            Poison: -1 # Omu
+            Radiation: -1  # Omu
       - !type:GenericStatusEffect
         key: RadiationProtection
         component: RadiationProtection
-        time: 2
+        time: 1 # Omu
         type: Add
         refresh: false
 
@@ -1446,7 +1447,7 @@
             Toxin: -3
             Airloss: -3
             Genetic: -3
-      - !type:ModifyStatusEffect 
+      - !type:ModifyStatusEffect
         effectProto: StatusEffectStunned
         time: 3
         type: Remove
