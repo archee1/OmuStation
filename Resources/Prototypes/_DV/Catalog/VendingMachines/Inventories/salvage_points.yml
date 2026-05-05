@@ -104,7 +104,7 @@
   - id: ClothingBackpackDuffelSalvageConscription
     cost: 1250
   - id: LuxuryMedipen
-    cost: 1500
+    cost: 3000
   - id: WeaponPlasmaCutter
     cost: 1500
   - id: BorgModuleAdvancedMining
