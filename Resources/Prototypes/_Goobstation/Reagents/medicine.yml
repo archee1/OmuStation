@@ -983,7 +983,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -12
+            Brute: -6 # Omu
         conditions:
         - !type:TypedDamageThreshold
           damage:
@@ -994,7 +994,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -3
+            Brute: -1.5 # Omu
         conditions:
         - !type:TypedDamageThreshold
           damage:
@@ -1006,7 +1006,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: 3
+            Brute: 1.5 # Omu
         conditions:
         - !type:ReagentThreshold
           min: 25
