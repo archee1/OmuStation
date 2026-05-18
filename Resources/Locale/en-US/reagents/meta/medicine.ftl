@@ -147,11 +147,13 @@ reagent-name-saline = saline
 reagent-desc-saline = A mixture of salt and water, highly toxic to Avali and Resomi. Commonly used to treat dehydration or low fluid presence in blood.
 # Starlight End
 
+# Omu Start
 reagent-name-lacerinol = lacerinol
-reagent-desc-lacerinol = A fairly unreactive chemical that boosts collagen sythesis to incredible levels, healing slash trauma.
+reagent-desc-lacerinol = A fairly unreactive chemical that boosts collagen sythesis to incredible levels, healing slash trauma while cooling the body to a moderate degree.
 
 reagent-name-puncturase = puncturase
-reagent-desc-puncturase = A fizzy chemical that helps rebuild trauma caused by piercing damage, leaving a slight amount of tissue damage behind.
+reagent-desc-puncturase = A fizzy chemical that helps rebuild trauma caused by piercing damage, leaving a slight amount of blood poisoning behind.
+# Omu End
 
 reagent-name-bruizine = bruizine
 reagent-desc-bruizine = Originally developed as a cough medicine, it turns out this chemical is wildly effective at treating blunt force trauma.
