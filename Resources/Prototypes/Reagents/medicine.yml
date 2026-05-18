@@ -1459,21 +1459,34 @@
   color: "#283332"
   metabolisms:
     Medicine:
+      metabolismRate: 0.75 # Omu
       effects:
       - !type:HealthChange
         damage:
-          types:
-            Slash: -4 # Was 3, Buffed due to limb damage changes(GoobStation)
+          types: # Omu
+            Slash: -2.5
+            Cold: 2
       - !type:HealthChange
         conditions:
         - !type:OrganType # Goobstation - Yowie
           type: Yowie
           shouldHave: false
         - !type:ReagentThreshold
-          min: 12
+          min: 8 # Omu
         damage:
           types:
-            Cold: 3
+            Cold: 3.5
+      # Omu Additions below
+      - !type:HealthChange # needs to be used in mixes.
+        conditions:
+        - !type:UniqueBloodstreamChemThreshold
+          min: 2
+        damage:
+          types:
+            Slash: -5
+            Cold: 2
+      - !type:AdjustTemperature # weakens it for combat use.
+        amount: -13000
 
 - type: reagent
   id: Puncturase
@@ -1489,8 +1502,7 @@
       - !type:HealthChange
         damage:
           types:
-            Piercing: -4
-            Blunt: 0.1
+            Piercing: -4.5 #Omu
       - !type:HealthChange
         conditions:
         - !type:OrganType # Goobstation - Yowie
@@ -1501,6 +1513,15 @@
         damage:
           types:
             Blunt: 5
+      # Omu Additions below
+      - !type:HealthChange
+        conditions:
+        - !type:OrganType # Goobstation - Yowie
+          type: Yowie
+          shouldHave: false
+        damage:
+          types:
+            Poison: -0.5
 
 - type: reagent
   id: Bruizine
@@ -1512,11 +1533,12 @@
   color: "#ff3636"
   metabolisms:
     Medicine:
+      metabolismRate: 0.2 # Omu
       effects:
       - !type:HealthChange
         damage:
           types:
-            Blunt: -4 # Was 3, Buffed due to limb damage changes(GoobStation)
+            Blunt: -2 # Omu, heals 100 over 50s, less of a 'ignore spacing' chem.
       - !type:HealthChange
         conditions:
         - !type:OrganType # Goobstation - Yowie
