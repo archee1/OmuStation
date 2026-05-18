@@ -238,27 +238,27 @@
       amount: -30
   metabolisms:
     Medicine:
-      metabolismRate: 3
+      metabolismRate: 2 # Omu
       effects:
       - !type:HealthChange
         damage:
           types:
-            Poison: -36 # if you're going to make the t4 only heal poison, at least make it good
+            Poison: -24 # if you're going to make the t4 only heal poison, at least make it good # Omu
       - !type:AdjustReagent
         reagent: Musiver
-        amount: 6
+        amount: 4 # Omu
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          min: 6
+          min: 4 # Omu
         damage:
           types:
-            Blunt: 15
+            Blunt: 10 # Omu
       - !type:ModifyBleedAmount
         amount: 1
         conditions:
         - !type:ReagentThreshold
-          min: 6
+          min: 4 # Omu
       - !type:AdjustReagent
         amount: -25
         reagent: Syriniver
@@ -320,25 +320,25 @@
   color: "#996fcc"
   metabolisms:
     Medicine:
-      metabolismRate: 3
+      metabolismRate: 2 # Omu
       effects:
       - !type:HealthChange
         damage:
-          types:
-            Heat: -30
-            Cold: -24
-            Shock: -24
-            Caustic: -18
+          types: # Omu
+            Heat: -20
+            Cold: -16
+            Shock: -16
+            Caustic: -12
       - !type:AdjustReagent
         reagent: Tehifin
-        amount: 3
+        amount: 2 # Omu
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          min: 4
+          min: 3 # Omu
         damage:
           types:
-            Blunt: 30
+            Blunt: 20 # Omu
       - !type:ModifyBleedAmount
         amount: 2
         conditions:
@@ -411,29 +411,29 @@
   color: "#ffdf97"
   metabolisms:
     Medicine:
-      metabolismRate: 3
+      metabolismRate: 2 # Omu
       effects:
       - !type:HealthChange
         damage:
-          types:
-            Slash: -30
-            Piercing: -30
-            Blunt: -30
+          types: # Omu
+            Slash: -20
+            Piercing: -20
+            Blunt: -20
       - !type:AdjustReagent
         reagent: Bozaide
-        amount: 3
+        amount: 2 # Omu
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          min: 6
+          min: 4 # Omu
         damage:
           types:
-            Blunt: 15
+            Blunt: 10 # Omu
       - !type:ModifyBleedAmount
         amount: 1
         conditions:
         - !type:ReagentThreshold
-          min: 6
+          min: 4 # Omu
       - !type:AdjustReagent
         amount: -25
         reagent: Syriniver
