@@ -991,7 +991,7 @@
             groups:
               Brute: 100
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           groups:
@@ -1002,7 +1002,7 @@
             groups:
               Brute: 25
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           groups:
@@ -1014,7 +1014,7 @@
               Brute: 25
           inverse: true
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           types: # Omu
@@ -1023,7 +1023,7 @@
             Brute: 1.5 # Omu
         conditions:
         - !type:ReagentThreshold
-          min: 25
+          min: 19 # Omu
         - !type:OrganType
           type: Yowie
           shouldHave: false
@@ -1056,7 +1056,7 @@
             groups:
               Burn: 150
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           types: # Omu
@@ -1070,7 +1070,7 @@
             groups:
               Burn: 25
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           groups:
@@ -1082,7 +1082,7 @@
               Burn: 25
           inverse: true
         - !type:ReagentThreshold
-          max: 25
+          max: 19 # Omu
       - !type:HealthChange
         damage:
           types: # Omu
@@ -1092,7 +1092,7 @@
             Burn: 2 # Omu
         conditions:
         - !type:ReagentThreshold
-          min: 25
+          min: 19 # Omu
         - !type:OrganType
           type: Yowie
           shouldHave: false
