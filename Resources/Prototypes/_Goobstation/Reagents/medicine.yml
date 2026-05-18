@@ -1097,6 +1097,28 @@
         time: 1 # Omu
         type: Add
         refresh: false
+      # Omu Additions Below
+      - !type:Emote
+        conditions:
+        - !type:OrganType
+          type: Yowie
+          shouldHave: false
+        - !type:ReagentThreshold
+          min: 6
+        emote: Yawn
+        showInChat: true
+        probability: 0.05
+      - !type:ModifyStatusEffect
+        conditions:
+        - !type:OrganType
+          type: Yowie
+          shouldHave: false
+        - !type:ReagentThreshold
+          min: 6
+        effectProto: StatusEffectDrowsiness
+        time: 3
+        type: Add
+        refresh: false
 
 - type: reagent
   id: Atropine
