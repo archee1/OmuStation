@@ -1017,6 +1017,8 @@
           max: 25
       - !type:HealthChange
         damage:
+          types: # Omu
+            Bloodloss: 2
           groups:
             Brute: 1.5 # Omu
         conditions:
@@ -1083,6 +1085,9 @@
           max: 25
       - !type:HealthChange
         damage:
+          types: # Omu
+            Bloodloss: 1.5
+            Poison: 1
           groups:
             Burn: 2 # Omu
         conditions:
