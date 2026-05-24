@@ -1475,7 +1475,7 @@
           min: 8 # Omu
         damage:
           types:
-            Cold: 3.5
+            Cold: 3
       # Omu Additions below
       - !type:HealthChange # needs to be used in mixes.
         conditions:
@@ -1500,8 +1500,8 @@
       effects:
       - !type:HealthChange
         damage:
-          types:
-            Piercing: -4.5 #Omu
+          types: # Omu
+            Piercing: -4.5
       - !type:HealthChange
         conditions:
         - !type:OrganType # Goobstation - Yowie
