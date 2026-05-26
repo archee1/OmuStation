@@ -604,18 +604,18 @@
     emptySpriteName: dexpen_empty
   - type: Hypospray
     solutionName: pen
-    transferAmount: 40
+    transferAmount: 12
     onlyAffectsMobs: false
     injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 40
+        maxVol: 12
         reagents:
-        - ReagentId: Saline
-          Quantity: 20
-        - ReagentId: DexalinPlus
-          Quantity: 20
+        - ReagentId: Artiplates
+          Quantity: 10
+        - ReagentId: Inaprovaline
+          Quantity: 2
 
 - type: entity
   name: environmental stabilization medipen # goobstation
