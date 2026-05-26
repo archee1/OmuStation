@@ -11,11 +11,9 @@
   technologyPrerequisites:
   - BluespaceChemistry # Omu end
   recipeUnlocks:
-  - MedicalAssemblerMachineCircuitboard
   - BlankMediPen
 
 - type: latheRecipePack
   id: MedicalAssemblerPack
   recipes:
-  - MedicalAssemblerMachineCircuitboard
   - BlankMediPen
