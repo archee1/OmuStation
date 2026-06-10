@@ -4,12 +4,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: entity
-  id: EnergyChemDispenser
+- type: entity # Omu, base parent to prevent copying the entire machine again for other e-chems
+  id: EnergyChemDispenserBase
   parent: SmallConstructibleMachine
-  name: energy chemical dispenser
-  suffix: energy
-  description: A bluespace Chemical Dispenser that uses station energy to synthesize Reagents. The future is here and now.
+  abstract: true
   placement:
     mode: SnapgridCenter
   components:
@@ -76,8 +74,6 @@
     guides:
     - Chemicals
     - Chemist
-  - type: StealTarget
-    stealGroup: ChemDispenser
   - type: Machine
     board: EnergyChemDispenserMachineCircuitboard
   - type: ActivatableUI
@@ -115,3 +111,13 @@
       Sodium: 5
       Sugar: 5
       Sulfur: 5
+
+- type: entity
+  id: EnergyChemDispenser
+  parent: EnergyChemDispenserBase
+  name: energy chemical dispenser
+  suffix: energy
+  description: A bluespace Chemical Dispenser that uses station energy to synthesize Reagents. The future is here and now.
+  components:
+  - type: StealTarget
+    stealGroup: ChemDispenser

@@ -1,0 +1,19 @@
+
+- type: entity
+  id: EnergyChemDispenserBotanyMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: botanical chemical dispenser machine board
+  description: A machine printed circuit board for a botanical chemical dispenser.
+  components:
+    - type: Sprite
+      state: service
+    - type: MachineBoard
+      prototype: EnergyChemDispenserBotany
+      stackRequirements:
+        Manipulator: 1
+        Glass: 1
+        Steel: 3
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker

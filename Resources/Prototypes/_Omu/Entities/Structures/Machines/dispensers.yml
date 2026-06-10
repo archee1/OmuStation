@@ -1,0 +1,37 @@
+
+- type: entity
+  id: EnergyChemDispenserBotany
+  parent: EnergyChemDispenserBase
+  name: botanical chemical dispenser
+  suffix: energy
+  description: a chemical dispenser that uses station energy to synthesize reagents typically needed by botanists.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _Omu/Structures/Machines/dispensers.rsi
+    state: botany-working
+    snapCardinals: true
+  - type: Battery
+    maxCharge: 750
+    startingCharge: 750
+  - type: ApcPowerReceiverBattery
+    idleLoad: 65
+    batteryRechargeRate: 15
+    batteryRechargeEfficiency: 2.0
+  - type: EnergyReagentDispenser
+    energyBeakerSlot:
+      whitelistFailPopup: reagent-dispenser-component-cannot-put-entity-message
+      whitelist:
+        components:
+        - FitsInDispenser
+    reagents:
+      Ammonia: 9
+      Chlorine: 12
+      Ethanol: 8
+      Nitrogen: 3
+      Phosphorus: 5
+      Potassium: 8
+      Radium: 15
+      Silicon: 3
+      SulfuricAcid: 15

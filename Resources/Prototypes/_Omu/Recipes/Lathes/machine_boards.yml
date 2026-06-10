@@ -1,0 +1,7 @@
+
+# Hydroponics
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]
+  id: EnergyChemDispenserBotanyMachineCircuitboard
+  icon: { sprite:  _Omu/Structures/Machines/dispensers.rsi, state: botany }
+  result: EnergyChemDispenserBotanyMachineCircuitboard

@@ -1,0 +1,15 @@
+
+- type: technology
+  id: ChemicalSynthesis
+  name: research-technology-chemical-synthesis
+  icon:
+    sprite: _Omu/Structures/Machines/dispensers.rsi
+    state: botany
+  discipline: CivilianServices
+  tier: 1
+  cost: 8000
+  recipeUnlocks:
+  - EnergyChemDispenserBotanyMachineCircuitboard
+  position: -1,9
+  technologyPrerequisites:
+  - Hydroponics
