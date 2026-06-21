@@ -21,10 +21,10 @@
   id: LoneAbductorSpawn
   components:
   - type: StationEvent
-    earliestStart: 15
+    earliestStart: 30 # Omu
     reoccurrenceDelay: 45
-    weight: 3 # Goobstation - 7.5 -> 3
-    minimumPlayers: 10
+    weight: 4 # Omu 3 -> 4
+    minimumPlayers: 20 # Omu
     duration: null # Goobstation - chud
     chaos:
       Hostile: 75
@@ -122,10 +122,10 @@
   id: DuoAbductorSpawn
   components:
   - type: StationEvent
-    earliestStart: 15
+    earliestStart: 45 # Omu
     reoccurrenceDelay: 45
-    weight: 3 # Goobstation - 7.5 -> 3
-    minimumPlayers: 20
+    weight: 1 # Omu 3 -> 1
+    minimumPlayers: 40 # Omu
     duration: null # Goobstation - chud
     chaos:
       Hostile: 150
