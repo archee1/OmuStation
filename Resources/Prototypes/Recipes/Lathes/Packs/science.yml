@@ -109,6 +109,7 @@
   - APECircuitboard
   - ArtifactAnalyzerMachineCircuitboard
   - ArtifactCrusherMachineCircuitboard
+  - EnergyChemDispenserProtoMachineCircuitboard # Omu
 
 - type: latheRecipePack
   id: CameraBoards

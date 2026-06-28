@@ -1,15 +1,31 @@
 
 - type: technology
-  id: ChemicalSynthesis
-  name: research-technology-chemical-synthesis
+  id: BotanicalSynthesis
+  name: research-technology-botanical-synthesis
   icon:
     sprite: _Omu/Structures/Machines/dispensers.rsi
     state: botany
   discipline: CivilianServices
   tier: 1
-  cost: 8000
+  cost: 14000
   recipeUnlocks:
   - EnergyChemDispenserBotanyMachineCircuitboard
-  position: -1,9
+  position: 2,7
   technologyPrerequisites:
   - Hydroponics
+
+- type: technology
+  id: AdvancedChemicalSynthesis
+  name: research-technology-advanced-chemical-synthesis
+  icon:
+    sprite: _Omu/Structures/Machines/dispensers.rsi
+    state: proto
+  discipline: CivilianServices
+  tier: 1
+  cost: 30000
+  recipeUnlocks:
+  - EnergyChemDispenserProtoMachineCircuitboard
+  position: 3,8
+  technologyPrerequisites:
+  - IndustrialMedicine
+  - BotanicalSynthesis

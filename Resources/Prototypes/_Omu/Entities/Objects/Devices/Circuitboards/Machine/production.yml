@@ -17,3 +17,22 @@
         GlassBeaker:
           amount: 2
           defaultPrototype: Beaker
+
+- type: entity
+  id: EnergyChemDispenserProtoMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: prototype chemical dispenser machine board
+  description: A machine printed circuit board for a prototype energy chemical dispenser.
+  components:
+    - type: Sprite
+      state: science
+    - type: MachineBoard
+      prototype: EnergyChemDispenserProto
+      stackRequirements:
+        Manipulator: 1
+        Glass: 1
+        Steel: 3
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker

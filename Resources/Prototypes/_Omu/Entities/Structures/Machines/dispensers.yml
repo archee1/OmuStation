@@ -14,11 +14,11 @@
     snapCardinals: true
   - type: Battery
     maxCharge: 750
-    startingCharge: 750
+    startingCharge: 0
   - type: ApcPowerReceiverBattery
     idleLoad: 65
     batteryRechargeRate: 15
-    batteryRechargeEfficiency: 2.0
+    batteryRechargeEfficiency: 1.0
   - type: EnergyReagentDispenser
     energyBeakerSlot:
       whitelistFailPopup: reagent-dispenser-component-cannot-put-entity-message
@@ -35,3 +35,24 @@
       Radium: 15
       Silicon: 3
       SulfuricAcid: 15
+
+- type: entity
+  id: EnergyChemDispenserProto
+  parent: EnergyChemDispenserBase
+  name: prototype energy chemical dispenser
+  suffix: energy
+  description: a prototype chemical dispenser that uses station energy to synthesize reagents.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _Omu/Structures/Machines/dispensers.rsi
+    state: proto-working
+    snapCardinals: true
+  - type: Battery
+    maxCharge: 1000
+    startingCharge: 0
+  - type: ApcPowerReceiverBattery
+    idleLoad: 65
+    batteryRechargeRate: 10
+    batteryRechargeEfficiency: 1.0

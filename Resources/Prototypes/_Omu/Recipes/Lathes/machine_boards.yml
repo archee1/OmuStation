@@ -5,3 +5,10 @@
   id: EnergyChemDispenserBotanyMachineCircuitboard
   icon: { sprite:  _Omu/Structures/Machines/dispensers.rsi, state: botany }
   result: EnergyChemDispenserBotanyMachineCircuitboard
+
+# Medical
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseMedicalMachineRecipeCategory ]
+  id: EnergyChemDispenserProtoMachineCircuitboard
+  icon: { sprite:  _Omu/Structures/Machines/dispensers.rsi, state: proto }
+  result: EnergyChemDispenserProtoMachineCircuitboard
