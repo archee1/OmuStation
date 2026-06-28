@@ -121,3 +121,6 @@
   components:
   - type: StealTarget
     stealGroup: ChemDispenser
+  - type: ActivatableUIRequiresAccess
+  - type: AccessReader
+    access: [["Chemistry"]]
