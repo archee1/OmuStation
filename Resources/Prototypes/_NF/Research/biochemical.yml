@@ -7,7 +7,7 @@
   discipline: CivilianServices # Omu
   tier: 3
   cost: 15000
-  position: 4,4 # Omu start
+  position: 3,7 # Omu start
   technologyPrerequisites:
   - BluespaceChemistry # Omu end
   recipeUnlocks:

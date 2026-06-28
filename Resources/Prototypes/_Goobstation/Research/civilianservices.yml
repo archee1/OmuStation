@@ -46,7 +46,7 @@
   cost: 5000
   recipeUnlocks:
   - SyringeGun
-  position: 3,6
+  position: 4,5 # Omu
   technologyPrerequisites:
   - BiochemicalStasis
 
@@ -61,7 +61,7 @@
   cost: 7500
   recipeUnlocks:
   - HandheldCrewMonitor
-  position: 4,6
+  position: 5,5 # Omu
   technologyPrerequisites:
   - BiochemicalStasis
 
@@ -112,7 +112,7 @@
   recipeUnlocks:
   - MechEquipmentHonkerBananaMortar
   - MechEquipmentHonkerMousetrapMortar
-  position: 0,7
+  position: 0,9 # Omu
   technologyPrerequisites:
   - HONKMech
 

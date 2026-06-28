@@ -57,7 +57,7 @@
   - HydroponicsTrayMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   # Goobstation R&D Console rework start
-  position: -1,8
+  position: -1,7 # Omu
   technologyPrerequisites:
   - AdvancedEntertainment
   # Goobstation R&D Console rework end
@@ -144,7 +144,7 @@
   - BiofabricatorMachineCircuitboard
   - BiomassReclaimerMachineCircuitboard
   # Goobstation R&D Console rework start
-  position: 0,8
+  position: -1,8 # Omu
   technologyPrerequisites:
   - Hydroponics
   # Goobstation R&D Console rework end
@@ -349,7 +349,7 @@
   - MedkitCombat # Goobstation - remove medkitcombat from static to research
   - VialBluespace # goob edit - bluespace vials
   # Goobstation R&D Console rework start
-  position: 4,5
+  position: 3,6 # Omu
   technologyPrerequisites:
   - BiochemicalStasis
   # Goobstation R&D Console rework end
