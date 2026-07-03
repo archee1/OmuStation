@@ -26,8 +26,6 @@
       map: ["flame"]
       visible: false
       shader: unshaded
-  - type: Item
-    size: Tiny
   - type: SolutionContainerManager
     solutions:
       Welder:
@@ -40,7 +38,3 @@
     netsync: false
     radius: 3 # Bigger since blue makes it hard to see. Worth it for the drip.
     color: blue
-  - type: ItemTogglePointLight
-  - type: UseDelay
-  - type: IgnitionSource
-    ignited: false
