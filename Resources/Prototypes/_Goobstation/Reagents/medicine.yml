@@ -981,7 +981,8 @@
     Medicine:
       metabolismRate: 0.25 # Omu
       effects:
-      - !type:HealthChange # Omu
+      # Omu changes start
+      - !type:HealthChange # Omu, highend bonus healing
         damage:
           groups:
             Brute: -1.5
@@ -989,10 +990,11 @@
         - !type:TypedDamageThreshold
           damage:
             groups:
-              Brute: 100
+              Brute: 90
         - !type:ReagentThreshold
-          max: 19 # Omu
-      - !type:HealthChange
+          max: 19
+      # Omu changes end
+      - !type:HealthChange # Omu, midrange bonus healing
         damage:
           groups:
             Brute: -4.5 # Omu
@@ -1000,10 +1002,10 @@
         - !type:TypedDamageThreshold
           damage:
             groups:
-              Brute: 25
+              Brute: 30
         - !type:ReagentThreshold
           max: 19 # Omu
-      - !type:HealthChange
+      - !type:HealthChange # Omu, base healing
         damage:
           groups:
             Brute: -1.5 # Omu
@@ -1015,7 +1017,7 @@
           inverse: true
         - !type:ReagentThreshold
           max: 19 # Omu
-      - !type:HealthChange
+      - !type:HealthChange # Omu, Overdose
         damage:
           types: # Omu
             Bloodloss: 2
@@ -1127,7 +1129,7 @@
         time: 1 # Omu
         type: Add
         refresh: false
-      # Omu Additions Below
+      # Omu changes start
       - !type:Emote
         conditions:
         - !type:OrganType
@@ -1149,6 +1151,7 @@
         time: 3
         type: Add
         refresh: false
+        # Omu chanes end
 
 - type: reagent
   id: Atropine
