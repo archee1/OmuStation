@@ -74,25 +74,23 @@
     - type: Sprite
       sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
       layers:
-        - state: icon
-        - state: icon-bluespace-overlay
-        - state: icon-bluespace-overlay-unshaded
+        - state: icon-bluespace
+        - state: icon-bluespace-unshaded
           shader: unshaded
-        - state: icon-on-bluespace
+        - state: icon-bluespace-on
+          shader: unshaded
           visible: false
           map: [ "enum.ToggleableVisuals.Layer" ]
     - type: Item
       size: Huge
       inhandVisuals:
         left:
-          - state: inhand-left
-          - state: inhand-left-bluespace-overlay
-          - state: inhand-left-bluespace-overlay-unshaded
+          - state: inhand-left-icon-bluespace
+          - state: inhand-left-icon-bluespace-unshaded
             shader: unshaded
         right:
-          - state: inhand-right
-          - state: inhand-right-bluespace-overlay
-          - state: inhand-right-bluespace-overlay-unshaded
+          - state: inhand-right-icon-bluespace
+          - state: inhand-right-icon-bluespace-unshaded
             shader: unshaded
     - type: Clothing
       sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
@@ -101,9 +99,8 @@
         - belt
       clothingVisuals:
         belt:
-          - state: equipped-BELT
-          - state: equipped-BELT-bluespace-overlay
-          - state: equipped-BELT-bluespace-overlay-unshaded
+          - state: equipped-BELT-icon-bluespace
+          - state: equipped-BELT-icon-bluespace-unshaded
             shader: unshaded
     - type: Storage
       grid:
