@@ -9,11 +9,35 @@
   parent: PlantBag
   description: A robust bag of holding for fruitful botanists with more plants than pockets.
   components:
+  # Omu changes start
   - type: Sprite
     sprite: DeltaV/Objects/Specific/Hydroponics/plant_bag_holding.rsi
-    state: icon
+    layers:
+      - state: icon
+      - state: icon-unshaded
+        shader: unshaded
   - type: Clothing
     sprite: DeltaV/Objects/Specific/Hydroponics/plant_bag_holding.rsi
+    quickEquip: false
+    slots:
+      - belt
+    clothingVisuals:
+      belt:
+        - state: equipped-BELT
+        - state: equipped-BELT-unshaded
+          shader: unshaded
+  - type: Item
+    size: Huge
+    inhandVisuals:
+      left:
+        - state: inhand-left
+        - state: inhand-left-unshaded
+          shader: unshaded
+      right:
+        - state: inhand-right
+        - state: inhand-right-unshaded
+          shader: unshaded
+  # Omu changes end
   - type: Storage
     grid:
     - 0,0,19,9
