@@ -13,11 +13,47 @@
   components:
   - type: MagnetPickup
     range: 2
+  # Omu changes start
   - type: Sprite
     sprite: Objects/Specific/Mining/ore_bag_holding.rsi
-    state: icon
+    layers:
+      - state: icon
+      - state: icon-unshaded
+        shader: unshaded
+      - state: icon-on-unshaded
+        shader: unshaded
+        visible: false
+        map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
   - type: Clothing
     sprite: Objects/Specific/Mining/ore_bag_holding.rsi
+    quickEquip: false
+    slots:
+      - belt
+    clothingVisuals:
+      belt:
+        - state: equipped-BELT
+        - state: equipped-BELT-unshaded
+          shader: unshaded
+  - type: Item
+    size: Huge
+    sprite: Objects/Specific/Mining/ore_bag_holding.rsi
+    inhandVisuals:
+      left:
+        - state: inhand-left
+        - state: inhand-left-unshaded
+          shader: unshaded
+      right:
+        - state: inhand-right
+        - state: inhand-right-unshaded
+          shader: unshaded
+  # Omu changes end
   - type: Storage
     grid:
     - 0,0,19,9
