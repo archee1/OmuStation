@@ -11,19 +11,7 @@
       "name": "icon"
     },
     {
-      "name": "equipped-BELT",
-      "directions": 4
-    },
-    {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "orebag_on",
+      "name": "icon-on-unshaded",
       "delays": [
         [
           0.1,
@@ -34,6 +22,18 @@
           0.1
         ]
       ]
+    },
+    {
+      "name": "equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
     }
   ]
 }

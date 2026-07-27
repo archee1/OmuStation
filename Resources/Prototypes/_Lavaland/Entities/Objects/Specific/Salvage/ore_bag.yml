@@ -5,15 +5,26 @@
   parent: OreBag
   components:
   - type: Sprite
-    sprite: _Lavaland/Objects/Specific/Mining/ore_bag.rsi
+    sprite: _Omu/Objects/Specific/Mining/big-ore_bag.rsi
     layers:
-    - state: orebag_off
-      map: [ "enum.ToggleableVisuals.Layer" ]
+      - state: icon
+      - state: icon-on-unshaded
+        shader: unshaded
+        visible: false
+        map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _Lavaland/Objects/Specific/Mining/ore_bag.rsi
+    sprite: _Omu/Objects/Specific/Mining/big-ore_bag.rsi
     quickEquip: false
     slots:
     - belt
+  - type: Item
+    size: Ginormous
+    sprite: _Omu/Objects/Specific/Mining/big-ore_bag.rsi
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
   - type: MagnetPickup # Lavaland TODO: rewrite this component's logic when porting to Reforged
     range: 1.5
   - type: ItemToggle
@@ -30,8 +41,8 @@
     visuals:
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
-          True: { state: orebag_on }
-          False: { state: orebag_off }
+          True: { visible: true }
+          False: { visible: false }
   - type: Storage
     grid:
     - 0,0,9,7
