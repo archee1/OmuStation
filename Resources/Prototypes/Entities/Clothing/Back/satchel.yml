@@ -212,7 +212,11 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,14,5 #Goob
+    - 0,0,1,4
+    - 3,0,4,4
+    - 5,0,10,3
+    - 11,0,12,4
+    - 14,0,15,4
 
 - type: entity
   parent: ClothingBackpackSatchelHolding

@@ -395,7 +395,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,14,5 #Goob
+    - 0,0,13,3
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:
       Steel: 500
@@ -405,7 +405,7 @@
       BSCrystal: 50
   - type: StaticPrice #Goobstation - Recycle update
     price: 1850
-  - type: HideContrabandContent #Goobstation Contraband detector - Tecnicly the content is in another dimention
+  #- type: HideContrabandContent
 
 - type: entity
   parent: ClothingBackpackClown

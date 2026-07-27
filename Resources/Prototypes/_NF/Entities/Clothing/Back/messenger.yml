@@ -509,6 +509,20 @@
       - state: inhand-right
       - state: inhand-right-unlit
         shader: unshaded
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,15,0
+    - 0,1,0,1
+    - 4,1,4,1
+    - 11,1,11,1
+    - 15,1,15,1
+    - 0,2,15,3
+    - 0,4,0,4
+    - 4,4,4,4
+    - 11,4,11,4
+    - 15,4,15,4
+    - 0,5,15,5
 
 # ANTAGONISTS
 - type: entity
