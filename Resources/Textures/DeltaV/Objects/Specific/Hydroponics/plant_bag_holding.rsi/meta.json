@@ -27,7 +27,8 @@
       "directions": 4
     },
     {
-      "name": "equipped-BELT-unshaded"
+      "name": "equipped-BELT-unshaded",
+      "directions": 4
     },
     {
       "name": "inhand-left",
