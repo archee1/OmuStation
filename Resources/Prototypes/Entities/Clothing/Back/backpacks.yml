@@ -383,13 +383,10 @@
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/holding.rsi
-    state: holding
     layers:
-    - state: holding
-    - state: holding-unlit
+    - state: icon
+    - state: icon-unshaded
       shader: unshaded
-  - type: Clothing
-    equippedPrefix: holding
   - type: Item
     size: Ginormous
   - type: Storage
