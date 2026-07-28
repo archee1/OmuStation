@@ -35,12 +35,14 @@
   - type: MagnetPickup
   - type: Sprite
     sprite: Objects/Specific/Mining/ore_bag.rsi
+    # Omu changes start
     layers:
       - state: icon
       - state: icon-on-unshaded
         shader: unshaded
         visible: false
         map: [ "enum.ToggleableVisuals.Layer" ]
+    # Omu changes end
   - type: Clothing
     sprite: Objects/Specific/Mining/ore_bag.rsi
     quickEquip: false
@@ -48,7 +50,7 @@
     - belt
   - type: Item
     size: Ginormous
-    sprite: Objects/Specific/Mining/ore_bag.rsi
+    sprite: Objects/Specific/Mining/ore_bag.rsi # Omu
     inhandVisuals: # Goob fixed inhand visuals
       left:
       - state: inhand-left
@@ -81,8 +83,8 @@
     visuals:
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
+          True: { visible: true } # Omu
+          False: { visible: false } # Omu
   # Lavaland Change end
 
 - type: entity

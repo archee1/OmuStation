@@ -509,6 +509,7 @@
       - state: inhand-right
       - state: inhand-right-unlit
         shader: unshaded
+  # Omu changes start
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -523,6 +524,7 @@
     - 11,4,11,4
     - 15,4,15,4
     - 0,5,15,5
+  # Omu changes end
 
 # ANTAGONISTS
 - type: entity

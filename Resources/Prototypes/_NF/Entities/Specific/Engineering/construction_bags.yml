@@ -74,6 +74,7 @@
     - type: Sprite
       sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
       layers:
+        # Omu changes start
         - state: icon-bluespace
         - state: icon-bluespace-unshaded
           shader: unshaded
@@ -92,6 +93,7 @@
           - state: inhand-right-icon-bluespace
           - state: inhand-right-icon-bluespace-unshaded
             shader: unshaded
+        # Omu changes end
     - type: Clothing
       sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
       quickEquip: false
@@ -99,9 +101,11 @@
         - belt
       clothingVisuals:
         belt:
+          # Omu changes start
           - state: equipped-BELT-icon-bluespace
           - state: equipped-BELT-icon-bluespace-unshaded
             shader: unshaded
+          # Omu changes end
     - type: Storage
       grid:
         - 0,0,19,9

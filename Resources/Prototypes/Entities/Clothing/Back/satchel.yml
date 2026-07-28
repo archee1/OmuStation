@@ -204,13 +204,13 @@
     sprite: Clothing/Back/Satchels/holding.rsi
     layers:
     - state: icon
-    - state: icon-unshaded
+    - state: icon-unshaded # Omu
       shader: unshaded
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Huge
-    grid:
+    grid: # Omu
     - 0,0,1,4
     - 3,0,4,4
     - 5,0,10,3

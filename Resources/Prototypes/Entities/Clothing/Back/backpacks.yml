@@ -381,17 +381,19 @@
   name: bag of holding
   description: A backpack that opens into a localized pocket of bluespace.
   components:
+  # Omu changes start
   - type: Sprite
     sprite: Clothing/Back/Backpacks/holding.rsi
     layers:
     - state: icon
     - state: icon-unshaded
       shader: unshaded
+  # Omu changes end
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Huge
-    grid:
+    grid: # Omu
     - 0,0,13,3
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:
@@ -402,7 +404,7 @@
       BSCrystal: 50
   - type: StaticPrice #Goobstation - Recycle update
     price: 1850
-  #- type: HideContrabandContent
+  #- type: HideContrabandContent # Omu
 
 - type: entity
   parent: ClothingBackpackClown

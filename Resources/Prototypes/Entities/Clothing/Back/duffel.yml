@@ -285,19 +285,22 @@
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/holding.rsi
+    #state: icon # Omu
     layers:
     - state: icon
-    - state: icon-unshaded
+    - state: icon-unshaded # Omu
       shader: unshaded
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,15,4 #Goob
+    - 0,0,15,4 # Omu
+  # Omu changes start
   # - type: ClothingSpeedModifier
   #   sprintModifier: 1
   #- type: HeldSpeedModifier
+  # Omu changes end
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:
       Steel: 500
@@ -307,7 +310,7 @@
       BSCrystal: 50
   - type: StaticPrice #Goobstation - Recycle update
     price: 1850
-  #- type: HideContrabandContent
+  #- type: HideContrabandContent # Omu
 
 - type: entity
   parent: [ ClothingBackpackDuffel, BaseCentcommContraband ]

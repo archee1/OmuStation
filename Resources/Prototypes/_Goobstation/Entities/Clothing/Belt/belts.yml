@@ -272,6 +272,7 @@
   name: xenobiology pouch of holding
   description: A larger slime-resistant pouch intended for use by Xenobiologists. Smells of bluespace extract and monkey hair.
   components:
+  # Omu changes start
   - type: Sprite
     sprite: _Goobstation/Clothing/Belt/xenobag_holding.rsi
     layers:
@@ -299,6 +300,7 @@
         - state: equipped-BELT
         - state: equipped-BELT-unshaded
           shader: unshaded
+  # Omu changes end
   - type: Storage
     grid:
     - 0,0,19,9
