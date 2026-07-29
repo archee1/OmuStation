@@ -102,14 +102,14 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
+      - map: [ "eyes" ]
       - map: [ "belt" ] # Omu - Moved belt to render under OuterClothing to have it be similar with how the base drawdepth is.
+      - map: [ "id" ]
       - map: [ "outerClothing" ]
       - map: [ "beltalt" ] # Omu
-      - map: [ "eyes" ]
       - map: [ "back" ] # Moved it to render under the neck stuff because it felt weird to see duffels be above cloaks? Dunno, this is a easy thing to change anyway.
       - map: [ "neck" ]
       - map: [ "enum.HumanoidVisualLayers.Face" ]

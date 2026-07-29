@@ -96,10 +96,10 @@
       - map: [ "shoes" ]
       - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
-      - map: [ "belt" ] # Omu - Moved belt to render under OuterClothing to have it be similar with how the base drawdepth is.
-      - map: [ "outerClothing" ]
       - map: [ "eyes" ]
       - map: [ "id" ]
+      - map: [ "belt" ] # Omu - Moved belt to render under OuterClothing to have it be similar with how the base drawdepth is.
+      - map: [ "outerClothing" ]
       - map: [ "beltalt" ] # Omu
       - map: [ "back" ]
       - map: [ "neck" ]

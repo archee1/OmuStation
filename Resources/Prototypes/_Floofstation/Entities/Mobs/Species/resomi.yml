@@ -276,10 +276,10 @@
     - map: [ "shoes" ]
     - map: [ "jumpsuitalt" ] # Omu
     - map: [ "ears" ]
-    - map: [ "outerClothing" ]
-    - map: [ "beltalt" ] # Omu
     - map: [ "eyes" ]
     - map: [ "id" ]
+    - map: [ "outerClothing" ]
+    - map: [ "beltalt" ] # Omu
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]

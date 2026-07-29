@@ -54,6 +54,7 @@
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "enum.HumanoidVisualLayers.Tail" ] # Omu
       - map: [ "jumpsuit" ] # Omu
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
@@ -61,14 +62,14 @@
         state: body-overlay-2
         visible: false
       - map: [ "enum.HumanoidVisualLayers.Face" ] # Omu 120
-      - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
+      - map: [ "eyes" ]
+      - map: [ "id" ]
       - map: [ "belt" ] # Omu 120 - default belt under outerclothing
       - map: [ "outerClothing" ]
-      - map: [ "eyes" ]
       - map: [ "beltalt" ] # Omu 120
       - map: [ "neck" ]
       - map: [ "back" ]
@@ -77,7 +78,6 @@
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
-      - map: [ "enum.HumanoidVisualLayers.Tail" ]
       - map: [ "mask" ]
       - map: [ "head" ]
       - map: [ "pocket1" ]
