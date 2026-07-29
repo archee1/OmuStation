@@ -214,11 +214,11 @@
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - map: [ "enum.HumanoidVisualLayers.Underwear" ]
       - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
-      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: ["jumpsuit"] # Omu
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -226,6 +226,7 @@
         visible: false
       - map: [ "gloves" ]
       - map: [ "shoes" ]
+      - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
       - map: [ "eyes" ]
       - map: [ "belt" ]

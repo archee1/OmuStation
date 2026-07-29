@@ -171,9 +171,9 @@
       - map: ["socks"]
       - map: ["underpants"]
       - map: ["undershirt"]
-      - map: ["jumpsuit"]
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
+      - map: ["jumpsuit"] # Omu
       - map: ["enum.HumanoidVisualLayers.Handcuffs"]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -182,6 +182,7 @@
       - map: ["id"]
       - map: ["gloves"]
       - map: ["shoes"]
+      - map: [ "jumpsuitalt" ] # Omu
       - map: ["ears"]
       - map: ["innerBelt"]
       - map: ["innerNeck"]
@@ -282,9 +283,9 @@
         - map: ["socks"]
         - map: ["underpants"]
         - map: ["undershirt"]
-        - map: ["jumpsuit"]
         - map: ["enum.HumanoidVisualLayers.LHand"]
         - map: ["enum.HumanoidVisualLayers.RHand"]
+        - map: ["jumpsuit"] # Omu
         - map: ["enum.HumanoidVisualLayers.Handcuffs"]
           color: "#ffffff"
           sprite: Objects/Misc/handcuffs.rsi
@@ -293,6 +294,7 @@
         - map: ["id"]
         - map: ["gloves"]
         - map: ["shoes"]
+        - map: [ "jumpsuitalt" ] # Omu
         - map: ["ears"]
         - map: ["innerBelt"]
         - map: ["innerNeck"]

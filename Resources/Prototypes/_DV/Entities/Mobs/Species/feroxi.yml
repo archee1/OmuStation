@@ -50,11 +50,11 @@
         state: l_leg
       - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Omu 120
       - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Omu 120
-      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "jumpsuit" ] # Omu
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -64,6 +64,7 @@
       - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
+      - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
       - map: [ "belt" ] # Omu 120 - default belt under outerclothing
       - map: [ "outerClothing" ]

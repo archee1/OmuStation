@@ -274,6 +274,7 @@
       visible: false
     - map: [ "gloves" ]
     - map: [ "shoes" ]
+    - map: [ "jumpsuitalt" ] # Omu
     - map: [ "ears" ]
     - map: [ "outerClothing" ]
     - map: [ "beltalt" ] # Omu
@@ -409,6 +410,7 @@
       visible: false
     - map: [ "gloves" ]
     - map: [ "shoes" ]
+    - map: [ "jumpsuitalt" ] # Omu
     - map: [ "ears" ]
     - map: [ "outerClothing" ]
     - map: [ "eyes" ]

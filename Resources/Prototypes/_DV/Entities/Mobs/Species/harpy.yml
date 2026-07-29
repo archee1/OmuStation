@@ -92,11 +92,11 @@
       - map: [ "underpants" ]
       - map: [ "undershirt" ]
       - map: [ "socks" ]
-      - map: [ "jumpsuit" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
       - map: ["enum.HumanoidVisualLayers.RFoot"]
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
+      - map: [ "jumpsuit" ] # Omu
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -104,6 +104,7 @@
         visible: false
       - map: [ "id" ]
       - map: [ "gloves" ]
+      - map: [ "jumpsuitalt" ] # Omu
       - map: [ "ears" ]
       - map: [ "belt" ] # Omu - Moved belt to render under OuterClothing to have it be similar with how the base drawdepth is.
       - map: [ "outerClothing" ]
